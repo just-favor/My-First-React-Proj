@@ -1,0 +1,35 @@
+.sideheader{
+    background-color: rgb(0, 131, 131);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    padding: 1% 5%;
+    border-radius: 0 0 0 100px;
+    box-shadow: 0 0 20px black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+.sideheader nav{
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+}
+.sideheader nav a{
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+.sideheader nav a:hover{
+    border-bottom: 2px solid #ffffff;
+    transform: scale(1.05);
+}
+.sideheader nav a:active{
+    color: cyan;
+    border-bottom: 2px solid cyan;
+}
+h1{
+    color: white;
+}

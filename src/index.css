@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  background: rgb(94, 94, 94);
+  font-family: sans-serif;
+  height: 100vh;
+  position: relative;
+  padding: 1rem 1rem;
+  color: rgb(0, 0, 0);
+  /* background-size: 200% ;
+  animation: gradient 7s ease infinite; */
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+h1{
+  text-align: center;
+  color:  rgb(0, 0, 0);
+  padding: 1rem 0;
+}
+button{
+  background: #ffffff;
+  border: none;
+  color: #000000;
+  font-size: large;
+  padding: 5px 20px;
+  cursor: pointer;
+  margin: 2rem auto;
+  box-shadow: 0 0 10px black;
+  margin-left: 10px;
+  border-radius: 100px;
+}
+button:active{
+  color: black;
+  background-color: white;
+}
+
+ /* produts design */
+/* .img{
+  background: rgba(0, 0, 255, 0.781);
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  object-fit: cover;
+}
+img{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.container{
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  width: 15rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 1.6;
+  padding: 1.5rem;
+  margin: 2rem;
+  font-size: small;
+  overflow-x: scroll;
+  box-shadow: 0 0 5px blue;
+  position: relative;
+  
+}
+span{
+  font-weight: bold;
+  font-size: large;
+  color: blue;
+}
+.p{
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: scroll;
+  background-color: rgba(34, 0, 255, 0.194);
+}
+hr{
+  border: px solid rgb(188, 0, 188);
+}
+.buy{
+  float: right;
+  background-color: blue;
+  color: white;
+  padding: 1px 1rem;
+  position: absolute;
+  top: 290px;
+  right: 23px;
+  box-shadow: 0 0 5px blue;
+  
+}
+.container:hover{
+  box-shadow: 0 0 20px blue;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+.buy:hover{
+  transform: scale(1.1);
+  
+  transition: all 0.3s ease-in-out;
+} */

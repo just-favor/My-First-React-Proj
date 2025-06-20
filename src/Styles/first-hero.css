@@ -1,0 +1,43 @@
+.hero{
+    height: 750px;
+    background: url(/src/assets/ian-dooley-DuBNA1QMpPA-unsplash.jpg) no-repeat center center/cover;
+    overflow: hidden;
+  }
+  .hero-section{
+    width: 100%;
+    height: 100%;
+    padding: 200px 20%;
+    backdrop-filter: blur(10px);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.735);
+  }
+  h2{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    opacity: 0;
+    border-bottom: 2px solid white;
+    width: fit-content;
+    padding-bottom: 2rem;
+    line-height: 1.6;
+    transform: translateY(100%);
+    animation: popUp 1s ease-out forwards;
+    /* Optional: Delay appearance */
+    animation-delay: 0.3s;
+  }
+  @keyframes popUp {
+    /* to {
+      opacity: 1;
+      transform: scale(1);
+    } */
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+}
+  span{
+    color: #00ffd5;
+  }
